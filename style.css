@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 .form{
 	display: flex;
 	height: 400px;
@@ -7,8 +11,24 @@
 	float: right;
 	margin-right: 20px;
 	margin-top: 100px;
+}
+.title{
+	text-align: center;
+	background-color: yellow;	
+	padding-bottom: 50px;
+	padding-top: 50px;
 
 }
-.cabecalho{
-	text-align: center;
+.developer{
+	margin-top: 100%;	
+	text-align: right;
+	align-content: right;
+}
+input{ /*NESSE CÓDIGO EU FIZ COM QUE O INPUT E SELECT TENHAM MAIS OU MENOS O MESMO 
+					ESTILO*/
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box; /*FAZ COM QUE NÃO TENHA AQUELA PEQUENA DIFERENÇA ENTRE O INPUT E O SELECT*/
+	border: black;
+	margin-bottom: 10px;
 }
