@@ -2,15 +2,23 @@
 	margin: 0;
 	padding: 0;
 }
+
+body{
+	background-color: black;
+}
 .form{
-	display: flex;
+	/*display: flex;
 	height: 400px;
 	width: 200px;
-	color: white;
-	background-color: black;
+	color: white;	
 	float: right;
 	margin-right: 20px;
-	margin-top: 100px;
+	margin-top: 100px;*/
+
+	background-color: #FFFFFFBB;
+	width: 200px;
+	float: right;
+	padding: 20px;
 }
 .title{
 	text-align: center;
@@ -23,6 +31,9 @@
 	margin-top: 100%;	
 	text-align: right;
 	align-content: right;
+	color: white;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 input{ /*NESSE CÓDIGO EU FIZ COM QUE O INPUT E SELECT TENHAM MAIS OU MENOS O MESMO 
 					ESTILO*/
@@ -31,4 +42,9 @@ input{ /*NESSE CÓDIGO EU FIZ COM QUE O INPUT E SELECT TENHAM MAIS OU MENOS O ME
 	box-sizing: border-box; /*FAZ COM QUE NÃO TENHA AQUELA PEQUENA DIFERENÇA ENTRE O INPUT E O SELECT*/
 	border: black;
 	margin-bottom: 10px;
+}
+input[type="submit"]{
+	color: white;
+	background-color:#48C5CE;
+	font-weight: bold;/*faz com que fique em negrito*/
 }
