@@ -6,7 +6,7 @@
 /*body{
 	background-color: black;
 }*/
-.form{
+.container{
 	/*display: flex;
 	height: 400px;
 	width: 200px;
@@ -40,11 +40,26 @@ input{ /*NESSE CÓDIGO EU FIZ COM QUE O INPUT E SELECT TENHAM MAIS OU MENOS O ME
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box; /*FAZ COM QUE NÃO TENHA AQUELA PEQUENA DIFERENÇA ENTRE O INPUT E O SELECT*/
-	border: black;
+	border: black solid;
 	margin-bottom: 10px;
 }
 input[type="submit"]{
 	color: white;
 	background-color:#48C5CE;
 	font-weight: bold;/*faz com que fique em negrito*/
+}
+
+
+
+
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+.span-required{
+	display: none;
 }
