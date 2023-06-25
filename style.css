@@ -3,9 +3,9 @@
 	padding: 0;
 }
 
-/*body{
+body{
 	background-color: black;
-}*/
+}
 .container{
 	/*display: flex;
 	height: 400px;
@@ -51,15 +51,14 @@ input[type="submit"]{
 
 
 
-
-
-.vermelho {
-    background-color: red;
-}
-
-.verde {
-    background-color: green;
 }
 .span-required{
+	
+
+}
+span{
+	font-size: 12px;
+	margin: 0px 0 0 1px;
 	display: none;
+	color: red;
 }
