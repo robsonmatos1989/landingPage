@@ -7,33 +7,37 @@ body{
 	background-color: black;
 }
 .container{
-	/*display: flex;
-	height: 400px;
+	display: flex;
+	height: 300px;
 	width: 200px;
-	color: white;	
-	float: right;
-	margin-right: 20px;
+	color: white;		
 	margin-top: 100px;*/
 
 	background-color: #FFFFFFBB;
-	width: 200px;
-	float: right;
+	border: yellow solid;
+	width: 200px;	
 	padding: 20px;
+	margin-left: 50%;
+	margin-right: 50%;
+
 }
+
 .title{
 	text-align: center;
-	background-color: yellow;	
+	background-color: #212121;	
 	padding-bottom: 50px;
 	padding-top: 50px;
+	color: #48C5CE;
 
 }
 .developer{
-	margin-top: 100%;	
+	margin-top: 50%;	
 	text-align: right;
 	align-content: right;
 	color: white;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	color: yellow;
 }
 input{ /*NESSE CÓDIGO EU FIZ COM QUE O INPUT E SELECT TENHAM MAIS OU MENOS O MESMO 
 					ESTILO*/
@@ -51,14 +55,42 @@ input[type="submit"]{
 
 
 
-}
-.span-required{
-	
 
-}
+
 span{
 	font-size: 12px;
 	margin: 0px 0 0 1px;
 	display: none;
 	color: red;
+}
+
+#linguagens{
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+	border: yellow solid;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+#paragrafo{
+	
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 700px){
+	.container{
+		
+		border: none;
+		color: yellow;	
+		
+		
+		
+	}
+	
 }
