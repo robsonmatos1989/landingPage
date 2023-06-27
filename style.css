@@ -19,6 +19,7 @@ body{
 	padding: 20px;
 	margin-left: 50%;
 	margin-right: 50%;
+	float: right;
 
 }
 
@@ -58,7 +59,8 @@ input[type="submit"]{
 
 
 span{
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: bold;
 	margin: 0px 0 0 1px;
 	display: none;
 	color: red;
@@ -92,5 +94,22 @@ span{
 		
 		
 	}
+	
+}
+
+@keyframes changeColor{
+	0% {background-color: orange}*/
+	25% {background-color: #48C5CE; color: black}
+	50% {background-color: yellow; color: green;}
+	75% {background-color: #48C5CE; color: white;}
+	100% {background-color: orange; color: black;}
+}
+
+.box{
+	/*width: 200px;
+	height: 200px;*/
+	/*border-style: solid;*/
+	animation-name: changeColor;
+	animation-duration:10s;	
 	
 }
